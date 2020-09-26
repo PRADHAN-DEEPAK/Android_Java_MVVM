@@ -1,0 +1,10 @@
+[
+    {
+        "merged": "/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/activity_layout.xml",
+        "source": "/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/res/layout/activity_layout.xml"
+    },
+    {
+        "merged": "/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/build/intermediates/incremental/mergeDebugResources/stripped.dir/layout/fragment_login.xml",
+        "source": "/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/res/layout/fragment_login.xml"
+    }
+]

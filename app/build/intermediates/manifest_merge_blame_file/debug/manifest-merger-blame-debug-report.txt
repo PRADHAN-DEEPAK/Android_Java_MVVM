@@ -1,0 +1,79 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="com.projectb.fv"
+4    android:versionCode="1"
+5    android:versionName="1.0" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="23"
+8-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml
+9        android:targetSdkVersion="29" />
+9-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:24:5-67
+11-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:24:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:26:5-79
+12-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:26:22-76
+13
+14    <application
+14-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:5:5-22:19
+15        android:name="com.projectb.fv.FvApplication"
+15-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:6:9-53
+16        android:allowBackup="true"
+16-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:7:9-35
+17        android:appComponentFactory="androidx.core.app.CoreComponentFactory"
+17-->[androidx.core:core:1.1.0] /Users/deepakpradhan/.gradle/caches/transforms-2/files-2.1/76f2b6439d16df60df3177021482ee5a/core-1.1.0/AndroidManifest.xml:24:18-86
+18        android:debuggable="true"
+19        android:extractNativeLibs="false"
+20        android:hardwareAccelerated="true"
+20-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:8:9-43
+21        android:icon="@mipmap/ic_launcher"
+21-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:9:9-43
+22        android:label="@string/app_name"
+22-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:10:9-41
+23        android:roundIcon="@mipmap/ic_launcher_round"
+23-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:11:9-54
+24        android:supportsRtl="true"
+24-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:12:9-35
+25        android:testOnly="true"
+26        android:theme="@style/AppTheme" >
+26-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:13:9-40
+27        <activity android:name="com.projectb.fv.features.login.ui.LoginActivity" >
+27-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:15:9-21:20
+27-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:15:19-81
+28            <intent-filter>
+28-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:16:13-20:29
+29                <action android:name="android.intent.action.MAIN" />
+29-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:17:17-69
+29-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:17:25-66
+30
+31                <category android:name="android.intent.category.LAUNCHER" />
+31-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:19:17-77
+31-->/Users/deepakpradhan/Documents/GitHub/bb-projectb-fv-android/app/src/main/AndroidManifest.xml:19:27-74
+32            </intent-filter>
+33        </activity>
+34
+35        <service
+35-->[androidx.room:room-runtime:2.2.5] /Users/deepakpradhan/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:25:9-28:40
+36            android:name="androidx.room.MultiInstanceInvalidationService"
+36-->[androidx.room:room-runtime:2.2.5] /Users/deepakpradhan/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:26:13-74
+37            android:directBootAware="true"
+37-->[androidx.room:room-runtime:2.2.5] /Users/deepakpradhan/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:27:13-43
+38            android:exported="false" />
+38-->[androidx.room:room-runtime:2.2.5] /Users/deepakpradhan/.gradle/caches/transforms-2/files-2.1/28e9fb3eede996dd8d91f8bfd7ee4a2a/room-runtime-2.2.5/AndroidManifest.xml:28:13-37
+39
+40        <provider
+40-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deepakpradhan/.gradle/caches/transforms-2/files-2.1/0dd7ac39faaf6c192fa045218325acf5/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:23:9-27:43
+41            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+41-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deepakpradhan/.gradle/caches/transforms-2/files-2.1/0dd7ac39faaf6c192fa045218325acf5/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:24:13-79
+42            android:authorities="com.projectb.fv.lifecycle-process"
+42-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deepakpradhan/.gradle/caches/transforms-2/files-2.1/0dd7ac39faaf6c192fa045218325acf5/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:25:13-69
+43            android:exported="false"
+43-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deepakpradhan/.gradle/caches/transforms-2/files-2.1/0dd7ac39faaf6c192fa045218325acf5/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:26:13-37
+44            android:multiprocess="true" />
+44-->[androidx.lifecycle:lifecycle-process:2.0.0] /Users/deepakpradhan/.gradle/caches/transforms-2/files-2.1/0dd7ac39faaf6c192fa045218325acf5/jetified-lifecycle-process-2.0.0/AndroidManifest.xml:27:13-40
+45    </application>
+46
+47</manifest>
